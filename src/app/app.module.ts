@@ -9,7 +9,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { OrderinteractionComponent } from './components/orderinteraction/orderinteraction.component';
 import { AdminHoverCardComponent } from './components/admin-hover-card/admin-hover-card.component';
-
 import { SliderInteractionComponent } from './components/slider-interaction/slider-interaction.component';
 import { FileManipulationComponent } from './components/file-manipulation/file-manipulation.component';
 import { GraphicalInteractionComponent } from './components/graphical-interaction/graphical-interaction.component';
@@ -21,7 +20,8 @@ import { ExtTextInteractionComponent } from './components/ext-text-interaction/e
 import { ChoiceBoxComponent } from './components/choice-box/choice-box.component';
 import { CardBoxComponent } from './components/card-box/card-box.component';
 import { AssociateInteractionComponent } from './components/associate-interaction/associate-interaction.component';
-
+import { ImportSectionComponent } from './components/import-section/import-section.component';
+import { ExportSectionComponent } from './components/export-section/export-section.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,9 @@ import { AssociateInteractionComponent } from './components/associate-interactio
     ExtTextInteractionComponent,
     ChoiceBoxComponent,
     CardBoxComponent,
-    AssociateInteractionComponent
+    AssociateInteractionComponent,
+    ImportSectionComponent,
+    ExportSectionComponent
     ]
 ,
   // imports: [
