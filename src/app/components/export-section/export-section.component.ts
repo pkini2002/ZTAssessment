@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./export-section.component.css']
 })
 export class ExportSectionComponent {
-
   Screen1: boolean = true;
   Screen2: boolean = false;
   Screen3: boolean = false;
