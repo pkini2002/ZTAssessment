@@ -7,3 +7,105 @@
     <li><img src="../../../assets/adminHover/response.png">Response Properties</li>
   </ul>
 </aside>
+
+
+<!-- Test Taker screens -->
+<aside class="testaker" *ngIf="testmakeropen">
+  <div class="headingele">
+    <div class="heading">TEST TAKER TOOLS </div>
+    <img src="../../../assets/cross.png" alt="cross" class="cross" (click)="testmakeropen=false"/>
+  </div>
+
+  <div class="toggle-1">
+  <div class="toggle">
+  <div class="bodyele">
+    <ul>
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Answer Eliminator</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Answer Masking</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Area Masking</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Calculator</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Calculator BODMAS</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Scientific Calculator</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Highlighter</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Line Reader</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Magnifier</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>Zoom</span>
+      </li>
+
+      <li>
+        <input type="checkbox" class="checkbox">
+        <span>APIP Text to Speech</span>
+      </li>
+    </ul>
+  </div>
+  </div>
+  </div>
+</aside>
+
+<!-- Test Navigator -->
+<aside class="testnav" *ngIf="testnav">
+  <div class="headingele1">
+    <div class="heading1">TEST NAVIGATOR</div>
+    <img src="../../../assets/cross.png" alt="cross" class="cross" (click)="testnav=false"/>
+  </div>
+
+  <div class="togglenew">
+    <div class="bodyele">
+      <ul>
+        <li>
+          <input type="checkbox" class="checkbox">
+          <span>Enable Review Screen</span>
+        </li>
+  
+        <li>
+          <input type="checkbox" class="checkbox">
+          <span>Enable Mark for Review</span>
+        </li>
+  
+        <li>
+          <input type="checkbox" class="checkbox">
+          <span>Information item usage</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</aside>
+
