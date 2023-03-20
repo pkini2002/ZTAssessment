@@ -883,6 +883,152 @@ padding: 3px;
   display: flex;
 }
 
+/* Item properties - Frame 208 */
+.sec8{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 10px 10px 24px;
+gap: 10px;
+position: absolute;
+width: 300px;
+height: 43px;
+left: 0px;
+top: 0px;
+background: #0C747E;
+}
+
+.heading8{
+  width: 238px;
+height: 23px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.crossitemprop{
+  width: 18px;
+height: 18px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.toggle8{
+  position: relative;
+  top: 15px;
+  max-height: 260px;
+  /* width: 220px; */
+  overflow-y: scroll;  
+}
+
+/* width */
+.toggle8::-webkit-scrollbar {
+  width: 5px;
+}
+/* Handle */
+.toggle8::-webkit-scrollbar-thumb {
+  background: #83C5BE; 
+  border-radius: 50px;
+}
+/* Handle on hover */
+.toggle8e::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.itemprop8 ul li{
+  border-bottom: none;
+}
+
+.itemprop8{
+  margin-left: 30px;
+  width: 260px;
+}
+
+.radio{
+  margin-right: 20px;
+}
+
+/* Frame 543 */
+.smallcomp{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 215px;
+height: 160px;
+background: #FFFFFF;
+border-bottom: 1px solid #000000;
+}
+
+.frame543 ul li{
+    border-bottom: none;
+}
+
+.frame543 ul li:hover{
+  background-color: #0C747E;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Time Limits (Frame 545) */
+.sec10{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 10px 10px 24px;
+gap: 10px;
+position: absolute;
+width: 357px;
+height: 50px;
+left: 0px;
+top: 0px;
+background: #0C747E;
+}
+
+.heading10{
+  width: 295px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.timecross{
+  width: 18px;
+height: 18px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.numberbodyele{
+  width: 50px;
+  margin-left: 175px;
+}
+
+.frame545 ul li{
+  border-bottom: none;
+}
+
+.bodyele10{
+  margin-right: 10px;
+}
+
+
+
 
 
 

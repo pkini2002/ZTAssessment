@@ -501,9 +501,77 @@
 </aside>
 
 <!-- Item properties (Frame 208) -->
+<aside class="itemprop8" *ngIf="itemprop8">
+  <div class="sec8">
+    <div class="heading8">ITEM PROPERTIES</div>
+    <img src="../../../assets/cross.png" alt="cross" class="crossitemprop" (click)="itemprop8=false"/>
+  </div>
 
+  <div class="toggle8">
+  <div class="bodyele8">
+     <ul>
+      <li>
+        <span class="bold">Identifier: </span>
+        <br/>
+        <span>TestPart-1</span>
+      </li>
+
+      <li>
+        <span class="bold">Navigation: </span>
+        <br/>
+        <input type="radio"name="navigation" value="Linear" class="radio">
+        <label for="linear">Linear</label><br>
+        <input type="radio" name="navigation" value="Non Linear" class="radio">
+        <label for="non-linear">Non Linear</label><br>
+      </li>
+
+      <li>
+        <span class="bold">Navigation: </span>
+        <br/>
+        <input type="radio" name="nav" value="Individual" class="radio">
+        <label for="Individual">Individual</label><br>
+        <input type="radio"name="nav" value="Simultaneous" class="radio">
+        <label for="Simultaneous">Simultaneous</label><br>
+      </li>
+     </ul>
+  </div>
+  </div>
+</aside>
 
 <!-- Frame 543 -->
+<aside class="frame543" *ngIf="smallcomp">
+  <div class="smallcomp">
+    <ul>
+      <li>None</li>
+      <li>Custom</li>
+      <li>Total Score</li>
+      <li>Cut Score</li>
+    </ul>
+  </div>
+</aside>
 
 <!--  Time Limits (Frame 545) -->
+<aside class="frame545" >
+  <div class="sec10">
+    <div class="heading10">TIME LIMITS</div>
+    <img src="../../../assets/cross.png" alt="cross" class="timecross"/>
+  </div>
 
+  <div class="togglescoring">
+  <div class="bodyele10">
+    <ul>
+      <li>Max duration
+        <input type="number" class="number">
+        <input type="number" class="number">
+        <br/><br/>
+        <input type="number" class="numberbodyele">
+      </li>
+
+      <li>
+        <span>Late Submission <input type="checkbox" class="checkboxitem1">
+          <br> allowed</span>
+      </li>
+    </ul>
+  </div>
+</div>
+</aside>
