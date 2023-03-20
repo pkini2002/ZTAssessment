@@ -918,6 +918,7 @@ height: 18px;
 flex: none;
 order: 1;
 flex-grow: 0;
+cursor: pointer;
 }
 
 .toggle8{
@@ -1012,6 +1013,7 @@ height: 18px;
 flex: none;
 order: 1;
 flex-grow: 0;
+cursor: pointer;
 }
 
 .numberbodyele{

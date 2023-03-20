@@ -551,10 +551,10 @@
 </aside>
 
 <!--  Time Limits (Frame 545) -->
-<aside class="frame545" >
+<aside class="frame545" *ngIf="frame545">
   <div class="sec10">
     <div class="heading10">TIME LIMITS</div>
-    <img src="../../../assets/cross.png" alt="cross" class="timecross"/>
+    <img src="../../../assets/cross.png" alt="cross" class="timecross" (click)="frame545=false"/>
   </div>
 
   <div class="togglescoring">

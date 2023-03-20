@@ -23,5 +23,5 @@ export class AdminHoverCardComponent {
   itempropeadmin:boolean=false;
   itemprop8:boolean=false;
   smallcomp:boolean=false;
-
+  frame545:boolean=false;
 }
