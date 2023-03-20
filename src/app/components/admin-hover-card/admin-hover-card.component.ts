@@ -15,5 +15,13 @@ export class AdminHoverCardComponent {
   itemsession:boolean=false;
   timelimit:boolean=false;
   selection:boolean=false;
-  itemprop:boolean=true;
+  itemprop:boolean=false;
+  itemprope:boolean=false;
+  itemprop2:boolean=false;
+  scoring:boolean=false;
+  outcome:boolean=false;
+  itempropeadmin:boolean=false;
+  itemprop8:boolean=false;
+  smallcomp:boolean=false;
+  frame545:boolean=false;
 }
