@@ -20,7 +20,7 @@ export class AdminHoverCardComponent {
   itemprop2:boolean=false;
   scoring:boolean=false;
   outcome:boolean=false;
-  itempropeadmin:boolean=true;
+  itempropeadmin:boolean=false;
   itemprop8:boolean=false;
   smallcomp:boolean=false;
   frame545:boolean=false;
