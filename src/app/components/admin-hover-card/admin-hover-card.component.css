@@ -185,6 +185,67 @@ border-color: #87a9ad;
   cursor: pointer;
 }
 
+.item2:hover #img1 {
+  content: url('../../../assets/adminHover/settings-white.png');
+}
+
+.item3:hover #img2{
+  content: url('../../../assets/adminHover/arrow-down-white.png');
+}
+
+.item4:hover #img3{
+  content: url('../../../assets/adminHover/anchor-white.png');
+}
+
+.item5:hover #img4{
+  content: url('../../../assets/adminHover/briefcase-white.png');
+}
+
+.item6:hover #img5{
+  content: url('../../../assets/adminHover/arrow-pointer-white.png');
+}
+
+.item7:hover #img6{
+  content: url('../../../assets/adminHover/align-center-white.png');
+}
+
+.item8:hover #img7{
+  content: url('../../../assets/adminHover/stopwatch-white.png');
+}
+
+.item9:hover #img8{
+  content: url('../../../assets/adminHover/clock-white.png');
+}
+
+.bodyele7 li:hover #img11{
+  content: url('../../../assets/adminHover/settings-white.png');
+}
+
+.bodyele7 li:hover #img12{
+  content: url('../../../assets/adminHover/clock-white.png');
+}
+
+.bodyele7 li:hover #img13{
+  content: url('../../../assets/adminHover/marker-white.png');
+}
+
+.bodyele7 li:hover #img14{
+  content: url('../../../assets/adminHover/xmarks-white.png');
+}
+
+.bodyele7 li:hover #img15{
+  content: url('../../../assets/adminHover/settings-white.png');
+}
+
+.bodyele7 li:hover #img16{
+  content: url('../../../assets/adminHover/stopwatch-white.png');
+}
+
+.bodyele7 li:hover #img17{
+  content: url('../../../assets/adminHover/clock-white.png');
+}
+
+
 /* Navigation warnings */
 .headingele2{
   display: flex;
